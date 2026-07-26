@@ -2,37 +2,31 @@
 
 ## AI Business Operating System
 
-AREN OS is the central operating system of AREN Studio.
+AREN OS is the official operating system of **AREN Studio**.
 
-This project is designed to help businesses manage AI-powered content creation, branding, marketing, automation, and client workflows from one dashboard.
-
----
-
-## Current Version
-
-Version 1.0
+It is designed to help businesses manage AI-powered content creation, branding, marketing, automation, and client workflows from a single dashboard.
 
 ---
 
-## Modules
+# Current Version
 
-🤖 AI Center
-
-🎨 Design Center
-
-🎬 Video Center
-
-📱 Social Media Center
-
-📂 Project Manager
-
-👥 Client Manager
-
-⚙️ AI Agent
+**Version:** 1.0
 
 ---
 
-## Future Features
+# Modules
+
+- 🤖 AI Center
+- 🎨 Design Center
+- 🎬 Video Center
+- 📱 Social Media Center
+- 📂 Project Manager
+- 👥 Client Manager
+- ⚙️ AI Agent
+
+---
+
+# Future Features
 
 - AI Content Generator
 - Instagram Manager
@@ -40,16 +34,17 @@ Version 1.0
 - Google Drive Integration
 - Dashboard Analytics
 - AREN Agent
+- Client CRM
+- AI Content Scheduler
 
 ---
 
-## Developer
+# Developer
 
-Saman Hoo
+**Saman Hoo**
 
-Founder of AREN Studio
+Founder of **AREN Studio**
 
 ---
 
-© AREN Studio
-Update README
+© 2026 AREN Studio
