@@ -8,13 +8,13 @@ It is designed to help businesses manage AI-powered content creation, branding, 
 
 ---
 
-# Current Version
+## 📌 Current Version
 
 **Version:** 1.0
 
 ---
 
-# Modules
+## 🧩 Modules
 
 - 🤖 AI Center
 - 🎨 Design Center
@@ -26,20 +26,19 @@ It is designed to help businesses manage AI-powered content creation, branding, 
 
 ---
 
-# Future Features
+## 🚀 Future Features
 
 - AI Content Generator
 - Instagram Manager
 - WhatsApp Automation
 - Google Drive Integration
 - Dashboard Analytics
-- AREN Agent
 - Client CRM
 - AI Content Scheduler
 
 ---
 
-# Developer
+## 👨‍💻 Developer
 
 **Saman Hoo**
 
