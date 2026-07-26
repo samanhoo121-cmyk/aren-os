@@ -1,1 +1,11 @@
-console.log("AREN OS Started");
+function updateClock(){
+
+let now=new Date();
+
+document.getElementById("clock").innerHTML=now.toLocaleString();
+
+}
+
+setInterval(updateClock,1000);
+
+updateClock();
