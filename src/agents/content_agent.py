@@ -1,26 +1,26 @@
 from .base_agent import BaseAgent
 from core.ai_router import AIRouter
+from prompt_manager import PromptManager
 
 
 class ContentAgent(BaseAgent):
 
     def __init__(self):
         super().__init__("Content Agent")
+
         self.ai = AIRouter()
+        self.prompt_manager = PromptManager()
 
     def execute(self, task):
-        prompt = f"""
-You are a professional content creator.
 
-Create content for this request:
+        template = self.prompt_manager.get_prompt("instagram_post")
+
+        prompt = f"""
+{template}
+
+Task:
 
 {task}
-
-Return:
-1. Hook
-2. Main caption
-3. Call to action
-4. Hashtags
 """
 
         try:
