@@ -1,12 +1,12 @@
 from .base_agent import BaseAgent
-from core.ai_client import AIClient
+from core.ai_router import AIRouter
 
 
 class ContentAgent(BaseAgent):
 
     def __init__(self):
         super().__init__("Content Agent")
-        self.ai = AIClient()
+        self.ai = AIRouter()
 
     def execute(self, task):
         prompt = f"""

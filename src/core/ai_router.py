@@ -10,5 +10,4 @@ class AIRouter:
 
     def generate(self, prompt):
         provider = self.providers["default"]
-
         return provider.generate(prompt)
