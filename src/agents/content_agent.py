@@ -23,4 +23,8 @@ Return:
 4. Hashtags
 """
 
-        return self.ai.generate(prompt)
+        try:
+            return self.ai.generate(prompt)
+
+        except Exception as e:
+            return f"AI service error: {str(e)}"
